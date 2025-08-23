@@ -1,0 +1,29 @@
+name: magazine_info_app
+description: A digital magazine app inspired by a modern news portal.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # Use Google Fonts to easily apply custom typography.  The Arya and Inter
+  # typefaces are pulled from Google Fonts at build time.
+  google_fonts: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/mag.png
+    - assets/images/pexels-bradleyhook-123335.jpg
+    - assets/images/pexels-jplenio-1105379.jpg
+    - assets/images/pexels-pixabay-257699.jpg

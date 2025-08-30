@@ -15,10 +15,13 @@ dependencies:
   # Use Google Fonts to easily apply custom typography.  The Arya and Inter
   # typefaces are pulled from Google Fonts at build time.
   google_fonts: ^6.3.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
